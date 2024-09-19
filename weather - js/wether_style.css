@@ -1,0 +1,151 @@
+@media only screen and (max-width: 780px) {
+    * {
+        transition: 0.5s;
+    }
+    body {
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        margin: 10px;
+        background-color: #fff;
+        border-radius: 20px;
+        background-image: linear-gradient(90deg, #68ff42, #4bc5fd);
+    }
+
+    #Searchtxtbox {
+        margin: 17px;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 15px;
+        color: #000000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+
+    #Searchtxtbox:focus {
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 20px white;
+        color: #000;
+    }
+
+    .imgtag,
+    .details {
+        text-align: center;
+    }
+    button {
+        margin-top: 30px;
+        margin-right: 10px;
+        width: 60px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: #82CD47;
+        border: none;
+    }
+    button:hover{
+        background-color: #54B435;
+        transform: scale(1.06, 1.06);
+        color: white;
+        box-shadow: 0px 0px 10px #379237;
+        border: none;
+    }
+    button:focus {
+        transform: scale(0.95, 0.95);
+        box-shadow: 0px 0px 20px #1d8f1d;
+        border: none;
+    }
+    .imgtag,
+    .details {
+        text-align: center;
+    }
+    .otherdetails {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        /* padding-left: 30px; */
+    }
+    .weather {
+        display: none;
+
+    }
+}
+@media only screen and (min-width: 781px) {
+
+    * {
+        transition: 0.5s;
+    }
+    body {
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        margin: 10px;
+        background-color: #fff;
+        border-radius: 20px;
+        background-image: linear-gradient(180deg, #fd4b4b, #fff242);
+    }
+
+    #Searchtxtbox {
+        margin: 17px;
+        width: 350px;
+        height: 50px;
+        border: none;
+        border-radius: 15px;
+        color: #000000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+
+    #Searchtxtbox:focus {
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 20px white;
+        color: #000;
+    }
+
+    .imgtag,
+    .details {
+        text-align: center;
+    }
+    button {
+        margin-top: 30px;
+        margin-right: 10px;
+        width: 70px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #9eff55;
+        border: none;
+    }
+    button:hover{
+        background-color: #54B435;
+        transform: scale(1.06, 1.06);
+        color: white;
+        box-shadow: 0px 0px 10px #379237;
+        border: none;
+    }
+    button:focus {
+        transform: scale(0.95, 0.95);
+        box-shadow: 0px 0px 20px #1d8f1d;
+        border: none;
+    }
+    .imgtag,
+    .details {
+        text-align: center;
+    }
+    .otherdetails {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        /* padding-left: 30px; */
+    }
+    .weather {
+        display: none;
+
+    }
+}
